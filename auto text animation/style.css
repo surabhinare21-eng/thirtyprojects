@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Romanesco&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(238, 238, 224);
+}
+
+.title{
+    font-family:"Abril Fatface", 'Serif';
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+   font-family:"Abril Fatface", 'Serif';
+   font-size:larger;
+}
+
+.container{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:70px;
+    display: inline-block;
+    justify-items:self-start;   
+
+}
