@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(246, 146, 255);
+}
+
+#game-container {
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    border: 3px solid black;
+    background: rgb(255, 255, 255);
+}
+
+#game {
+    position: relative;
+    top: -150px;
+}
+
+.row {
+    display: flex;
+    height: 100px;
+}
+
+.tile {
+    flex: 1;
+    border: 1px solid #ccc;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.tile.black {
+    background: black;
+}
+
